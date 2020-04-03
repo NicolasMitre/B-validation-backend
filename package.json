@@ -1,0 +1,27 @@
+{
+  "name": "validator-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon server/server.js",
+    "test": "mocha test/**/*.js --reporter spec --timeout 5000 --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.6",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.1"
+  }
+}
